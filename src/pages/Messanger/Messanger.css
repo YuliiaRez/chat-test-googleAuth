@@ -1,0 +1,34 @@
+.messanger {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background: #eeeef1;
+
+  grid-template-columns: 25% auto;
+  grid-template-rows: 80px auto 80px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  position: relative;
+}
+
+.container {
+  padding: 10px;
+}
+
+.scrollable {
+  position: relative;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sidebar {
+  background: white;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.content {
+  background: rgb(235, 237, 238);
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}

@@ -1,0 +1,80 @@
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message .timestamp {
+  display: flex;
+  justify-content: start;
+  color: #999;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+.message .timestamp-mine {
+  display: flex;
+  justify-content: end;
+  color: #999;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+
+.message .bubble-container {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.message-mine .bubble-container {
+  justify-content: flex-end;
+}
+
+.message .bubble-container .bubble {
+  margin: 1px 0px;
+  background: #69696b;
+  padding: 10px 15px;
+  border-radius: 25px;
+  max-width: 75%;
+  color: white;
+}
+.message-mine .bubble-container .bubble {
+  margin: 1px 0px;
+  background: #69696b;
+  padding: 10px 15px;
+  border-radius: 25px;
+  max-width: 75%;
+  color: white;
+}
+.message-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.message-photo-text {
+  display: flex;
+  flex-direction: row;
+}
+.message-photo-text-mine {
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.bubble-container-mine {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-left: auto;
+  background: #d0d0da;
+  padding: 10px 15px;
+  border-radius: 25px;
+  max-width: 40%;
+  color: rgb(95, 93, 93);
+}

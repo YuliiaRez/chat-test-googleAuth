@@ -1,0 +1,23 @@
+.message-list-container {
+  padding: 10px;
+  padding-bottom: 70px;
+}
+.current-conversation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background: #eeeef1;
+  justify-content: space-between;
+}
+.current-conversation-container-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.current-conversation-name {
+  color: rgb(80, 78, 78);
+  font-size: 19px;
+  font-weight: normal;
+}

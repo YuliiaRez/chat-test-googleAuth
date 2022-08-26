@@ -1,0 +1,9 @@
+.conversation-list {
+  display: flex;
+  flex-direction: column;
+}
+.chats {
+  color: rgb(26, 72, 158);
+  font-size: 28px;
+  margin: 35px 10px 35px;
+}
